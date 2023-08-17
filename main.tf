@@ -175,7 +175,7 @@ resource "null_resource" "configure-cat-app" {
       "chmod +x *.sh",
       "PLACEHOLDER=${var.placeholder} WIDTH=${var.width} HEIGHT=${var.height} PREFIX=${var.prefix} ./deploy_app.sh",
       "sudo apt -y install cowsay",
-      "cowsay Mooooooooooo!",
+      "cowsay Moooooooooo!",
     ]
 
     connection {
